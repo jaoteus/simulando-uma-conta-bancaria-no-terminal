@@ -8,7 +8,7 @@ public class TerminalAccount {
     private static String name;
     private static double balance;
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         System.out.print("Enter your agency >> ");
         agency = scan.next();
         System.out.print("Enter your agency number >> ");
